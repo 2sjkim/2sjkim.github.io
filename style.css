@@ -25,3 +25,6 @@
 
 /* Keep the same horizontal origin on short and long pages. */
 html{overflow-y:scroll;scrollbar-gutter:stable}
+
+/* Keep author underlines continuous beneath descending letters. */
+.self-author{text-decoration-skip-ink:none}
