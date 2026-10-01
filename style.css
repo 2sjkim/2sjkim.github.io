@@ -2,3 +2,5 @@
 .about-layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start}.about-photo{display:block;width:100%;height:auto;border-radius:3px}.about-layout .biography{min-width:0}@media(max-width:600px){.about-layout{grid-template-columns:1fr;gap:24px}.about-photo{width:min(100%,280px);justify-self:center}}
 
 .scholar-link{display:inline-flex;align-items:center;gap:7px;color:#000}.scholar-link svg{flex:none}.biography .scholar-contact{margin:0 0 8px}
+
+.presentation{color:#c62828}
