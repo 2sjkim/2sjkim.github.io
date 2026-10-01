@@ -22,3 +22,6 @@
 .publications-main{max-width:900px}
 .paper .figure-slot{justify-content:flex-start}
 @media(min-width:601px){.paper{grid-template-columns:15.299389rem minmax(0,1fr)}}
+
+/* Keep the same horizontal origin on short and long pages. */
+html{overflow-y:scroll;scrollbar-gutter:stable}
