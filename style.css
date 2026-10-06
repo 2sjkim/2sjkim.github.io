@@ -28,3 +28,7 @@ html{overflow-y:scroll;scrollbar-gutter:stable}
 
 /* Keep author underlines continuous beneath descending letters. */
 .self-author{text-decoration-skip-ink:none}
+
+.publication-legend{color:#000;font-weight:400;font-style:normal;font-size:.96rem;margin:13px 0 20px}
+.publication-legend+.publication-list{margin-top:0}
+.self-author{text-decoration:none}
