@@ -32,3 +32,6 @@ html{overflow-y:scroll;scrollbar-gutter:stable}
 .publication-legend{color:#555;font-weight:400;font-style:normal;font-size:.96rem;margin:13px 0 20px}
 .publication-legend+.publication-list{margin-top:0}
 .self-author{text-decoration:none}
+
+/* Justify the three biography paragraphs while keeping contact links left aligned. */
+.biography>p:nth-of-type(-n+3){text-align:justify;text-align-last:start}
